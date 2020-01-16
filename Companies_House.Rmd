@@ -1,0 +1,25 @@
+---
+title: "Companies House"
+author: "Barry Bullas"
+date: "16/01/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+list_of_packages <- c("rvest", "dplyr", "httr", "xml2", "jsonlite", "DT")
+new_packages <- list_of_packages[!(list_of_packages %in% installed.packages()[,"Package"])]
+if(length(new_packages)) install.packages(new_packages)
+
+#Load required packages
+lapply(list_of_packages, library, character.only = TRUE)
+```
+
+## AIM
+
+This project explores how to retrieve data from the [Companies House API](https://developer.companieshouse.gov.uk/api/docs/).
+
+```{r }
+
+```
