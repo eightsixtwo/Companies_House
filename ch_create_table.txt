@@ -1,6 +1,6 @@
 create table basiccompanydata (
 	companyname varchar(160),
-	companynumber varchar(8),
+	companynumber varchar(8) PRIMARY KEY,
 	regaddress_careof varchar(100),
 	regaddress_pobox varchar(10),
 	regaddress_addressline1 varchar(300),
