@@ -1,0 +1,6 @@
+COPY basiccompanydata FROM 'C:\CH_data\CH_2020.03.01\BasicCompanyData-2020-03-01-part1_6.csv' WITH DELIMITER AS ',' CSV HEADER; 
+COPY basiccompanydata FROM 'C:\CH_data\CH_2020.03.01\BasicCompanyData-2020-03-01-part2_6.csv' WITH DELIMITER AS ',' CSV HEADER; 
+COPY basiccompanydata FROM 'C:\CH_data\CH_2020.03.01\BasicCompanyData-2020-03-01-part3_6.csv' WITH DELIMITER AS ',' CSV HEADER; 
+COPY basiccompanydata FROM 'C:\CH_data\CH_2020.03.01\BasicCompanyData-2020-03-01-part4_6.csv' WITH DELIMITER AS ',' CSV HEADER; 
+COPY basiccompanydata FROM 'C:\CH_data\CH_2020.03.01\BasicCompanyData-2020-03-01-part5_6.csv' WITH DELIMITER AS ',' CSV HEADER; 
+COPY basiccompanydata FROM 'C:\CH_data\CH_2020.03.01\BasicCompanyData-2020-03-01-part6_6.csv' WITH DELIMITER AS ',' CSV HEADER; 
