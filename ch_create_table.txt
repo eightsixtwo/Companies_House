@@ -54,4 +54,7 @@ create table basiccompanydata (
 	previousname_10_companyname varchar(160),
 	confstmtnextduedate varchar(10),
 	confstmtlastmadeupdate varchar(10)
-)
+);
+
+CREATE INDEX basic_coyname_idx ON basiccompanydata (companyname);
+CREATE INDEX basic_crn_idx on basiccompanydata (companynumber);
