@@ -1,0 +1,30 @@
+ALTER TABLE basiccompanydata ALTER COLUMN incorporationdate TYPE DATE 
+using to_date(incorporationdate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN accounts_nextduedate TYPE DATE 
+using to_date(accounts_nextduedate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN accounts_lastmadeupdate TYPE DATE 
+using to_date(accounts_lastmadeupdate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN returns_nextduedate TYPE DATE 
+using to_date(returns_nextduedate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN returns_lastmadeupdate TYPE DATE 
+using to_date(returns_lastmadeupdate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN previousname_1_condate TYPE DATE 
+using to_date(previousname_1_condate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN previousname_2_condate TYPE DATE 
+using to_date(previousname_2_condate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN previousname_3_condate TYPE DATE 
+using to_date(previousname_3_condate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN previousname_4_condate TYPE DATE 
+using to_date(previousname_4_condate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN previousname_5_condate TYPE DATE 
+using to_date(previousname_5_condate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN previousname_6_condate TYPE DATE 
+using to_date(previousname_6_condate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN previousname_7_condate TYPE DATE 
+using to_date(previousname_7_condate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN previousname_8_condate TYPE DATE 
+using to_date(previousname_8_condate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN previousname_9_condate TYPE DATE 
+using to_date(previousname_9_condate, 'DD/MM/YYYY');
+ALTER TABLE basiccompanydata ALTER COLUMN previousname_10_condate TYPE DATE 
+using to_date(previousname_10_condate, 'DD/MM/YYYY');
